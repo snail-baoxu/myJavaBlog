@@ -1,0 +1,5 @@
+1、maven 设置  添加自己安装的maven，并设置自己的settings文件
+2、工作空间编码  workspace 编码设置为utf-8
+3、字体大小调节为11
+4、自动提示-java -edit-content Assist 
+5、添加自己的tomcat
