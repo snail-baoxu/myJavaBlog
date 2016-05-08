@@ -1,0 +1,8 @@
+安装：
+1、下载maven包，解压到安装路径
+2、配置maven环境变量，新建MAVEN_HOMNE :安装路径（D:\Program Files\apache-maven-3.3.3） path 中添加 ;%MAVEN_HOME%\bin;
+
+使用：
+settings文件修改：
+1、本地仓库设置（将maven config下的settings文件拷贝到用户自己的仓库目录）
+2、maven lib 下 maven-builder.jar  pom-4.0.0.xml 中设置了 远程mvn仓库
