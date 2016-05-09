@@ -6,3 +6,10 @@
 settings文件修改：
 1、本地仓库设置（将maven config下的settings文件拷贝到用户自己的仓库目录）
 2、maven lib 下 maven-builder.jar  pom-4.0.0.xml 中设置了 远程mvn仓库
+
+
+关于settings配置中的疑问：
+1、mirror镜像  和 profile中repositories仓库 是个什么样的关系？
+
+
+profile中repositories仓库：用来填充构建系统本地仓库所使用的一组远程项目，maven是从本地仓库中使用插件和和依赖。
