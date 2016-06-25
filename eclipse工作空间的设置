@@ -2,4 +2,6 @@
 2、工作空间编码  workspace 编码设置为utf-8
 3、字体大小调节为11
 4、自动提示-java -edit-content Assist 
-5、添加自己的tomcat
+5、添加自己的tomcat，将应用放在自己安装的tomcat中。设置 use tomcat installation ,deploy path:webapps
+6、编码风格：设置Code Templates、Eclipse formatter、Checkstyle
+
